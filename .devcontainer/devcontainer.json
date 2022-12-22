@@ -11,6 +11,8 @@
             "VARIANT": "16-bullseye"
         }
     },
+    "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
+
     // Configure tool-specific properties.
     "customizations": {
         // Configure properties specific to VS Code.
